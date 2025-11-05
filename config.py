@@ -17,5 +17,5 @@ else:
 
 HEADERS = {
     "Content-Type": "application/json",
-    "Authorization": f"Bearer token"
+    "Authorization": "Bearer token"
 }
