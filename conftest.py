@@ -1,14 +1,16 @@
 import pytest
-import requests
 from config import HEADERS, BASE_URL
+
 
 @pytest.fixture
 def api_headers():
     return HEADERS.copy()
 
+
 @pytest.fixture
 def base_url():
     return BASE_URL
+
 
 @pytest.fixture
 def test_project_data():
